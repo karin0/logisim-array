@@ -1,6 +1,6 @@
 
 ### Usage
-Insecure module `xml.etree.ElementTree` is used, so never use this against untrusted circuit files.
+Insecure module `xml.etree.ElementTree` and built-in function `eval()` is used, so **never use this against untrusted files**.
 
 ```python
 from logisim_array import array

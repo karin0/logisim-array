@@ -1,0 +1,3 @@
+*.circ
+test*
+__pycache__
